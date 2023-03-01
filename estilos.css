@@ -1,0 +1,181 @@
+* {
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+#quienesSomos{
+    width: 100%;
+    height: 100vh;
+    border: 0px solid black;
+/*    max-width: 1060px;*/
+}
+
+#quienesSomos img{
+    width: 100%;
+    height: 100vh;
+}
+
+#contenedorPorque{
+    width: 100%;
+    max-width: 1060px;
+    border: 0px solid black;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/*/////////////*/
+
+#contenedorIconos i:hover{
+  background-color: #D4D9DF;
+  transition-duration: 0.4s;
+  color: black;
+}
+
+#contenedorFormulario{
+  width: 100%;
+  max-width: 1060px;
+  height: 460px;
+  margin: 50px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  background:rgb(255, 255, 255);
+  box-shadow: 0px 1px 8px rgba(0,0,0,0.2);  
+}
+
+#contenidoFormulario{
+  float: left;
+  border: 0px solid black;
+  width: 60%;
+  height: 450px;
+}
+
+#formularioImg{
+  width: 40%;
+  border: 0px solid black;
+  float: left;
+  height: 450px;
+} 
+
+#formularioImg img{
+  width: 100%;
+  height: 460px;
+}
+
+#contenidoFormulario h1{
+  font-family: arial;
+  text-align: center;
+  color: grey;
+  line-height: 80px;
+}
+
+/* ////  */
+
+#contenidoFormulario input{
+  width: 50%;
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 5px;
+  border: 1px solid #C3BBC2;
+  outline: none;
+}
+
+#contenidoFormulario i{
+  color: grey;
+}
+
+#bEnviar{
+  width: 40%;
+  height: 10px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  background-color: #5DADE2;
+  color: white;
+  font-family: arial;
+  border-radius: 5px;
+}
+
+#imgNnone{
+    display: block;
+}
+
+@media(max-width: 850px){
+    #imgNnone{
+        display: none;
+    }    
+
+#contenidoFormulario{
+  margin-left: 5%;
+  border: 0px solid black;
+  width: 90%;
+  height: 450px;
+}
+
+#contenedorFormulario{
+  width: 90%;
+  margin-left: 5%;
+  padding-bottom: 20px;
+  margin: 50px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  background:rgb(255, 255, 255);
+  box-shadow: 0px 1px 8px rgba(0,0,0,0.2);  
+}
+}
+
+@media(max-width: 405px){
+#contenedorFormulario{
+  width: 90%;
+  margin-left: 5%;
+  min-height: 550px;
+  margin: 50px auto;
+  border-radius: 15px;
+  background:red;
+  box-shadow: 0px 1px 8px rgba(0,0,0,0.2);  
+}    
+}
+/* /////RESPONSIVE */
+
+@media(max-width: 1130px){
+#contenedorPorque{
+    width: 100%;
+    max-width: 800px;
+    border: 0px solid black;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#contenedorFormulario{
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  margin: 50px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  background:rgb(255, 255, 255);
+  box-shadow: 0px 1px 8px rgba(0,0,0,0.2);  
+}    
+}
+
+@media(max-width: 850px){
+#contenedorPorque{
+    width: 90%;
+    margin-left: 5%;
+    border: 0px solid black;
+    margin: 50px auto;
+    margin-bottom: 30px;
+}    
+#contenedorFormulario{
+  width: 95%;
+  margin-left: 2.5%;
+  margin: 50px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  background:rgb(255, 255, 255);
+  box-shadow: 0px 1px 8px rgba(0,0,0,0.2);  
+} 
+}
