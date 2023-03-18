@@ -231,3 +231,19 @@
 }
 
 }
+
+#volver-arriba {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  bottom: 20px;
+  right: 20px;
+  border: 0px solid black;
+  padding: 15px 20px;
+  font-size: 25px;
+  background-color: #333333;
+  color: white;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 1s;
+}
