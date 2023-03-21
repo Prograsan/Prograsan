@@ -25,7 +25,8 @@ section {
     max-width: auto;
     border: 0px solid black;
     position: fixed;
-	z-index: 1000;
+    z-index: 1000;
+    color: white;
     text-align: left;
     display: inline-block;
     display: table;
@@ -38,7 +39,7 @@ section {
 
 .menu a:hover {
 
-    background: rgb(255, 255, 255);
+
 
 }
 
@@ -53,17 +54,16 @@ section {
 
 .navegacion ul {
 
-	list-style: none;
+    list-style: none;
 
 }
 
     .menu > li {
 
         margin-right: 1%;
-	    position: relative;
-	    display: inline-block;
+        position: relative;
+        display: inline-block;
         font-family: Arial, Helvetica, sans-serif;
-        FONT-WEIGHT: bold;
         position: static;
         margin-bottom: 0.5%;
         
@@ -71,26 +71,30 @@ section {
 
         .menu > li > a {
 
-	        display: block;
-	        padding: 1px 10px;
-            margin-top: 30px;
-            color: #ffffff;
             text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 5px;
+            color: white;
+            margin-left: 15px;
+            line-height: 80px;
 
         }
 
             .menu li a:hover {
 
-	            color: blue;
-                border-radius: 5px;
-	            transition: all .3s;
+                color: blue;
+                background: #F9F9F9;
+                padding: 5px;
+                border-radius: 4px;
+                transition: all .3s;
 
             }
 
                 .menu li:hover .submenu {
 
-	                visibility: visible;
-	                opacity: 1;
+                    visibility: visible;
+                    opacity: 1;
 
                 }
 
@@ -99,20 +103,18 @@ section {
 header.abajo .navegacion {
 
     width: 100%;
-    padding: 1%;
+    padding: 0%;
     margin-top: -10px;
-    padding-bottom: 2%;
-    max-width: auto;
+    padding-bottom: 0%;
     background: #F9F9F9;
     border: 0px solid black;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
     position: fixed;
     z-index: 1000;
+    height: 80px;
     text-align: center;
     top: 0;
-    margin-right: 3%;
     display: inline-block;
-    display: table;
-    transition: 0.s; 
     transition: 0.3s;
 }
 
@@ -125,6 +127,39 @@ header.abajo #noNone{
 }
 
 header.abajo .menu > li > a {
-    color: black;
-    font-weight: bold;
+    color: #363636;
+    padding: 0px;
+    font-weight: 1;
+    padding-top: 5px;
+    font-family: 'Black Han Sans';
+}
+
+header.abajo .menu li a:hover {
+
+    color: blue;
+    background: #F9F9F9;
+    padding: 0px;
+    border-radius: 5px;
+    height: 10px;
+    transition: all 0s;
+    border: 0px solid black;
+
+}
+
+header.abajo #none:hover{
+    display: block;
+    color: blue;
+    background: #F9F9F9;
+    padding: 0px;
+    border-radius: 5px;
+    margin-top:5px;
+    transition: all .0s;
+    border: 0px solid black;    
+}
+
+header.abajo .menu li:hover .submenu {
+
+    visibility: visible;
+    opacity: 1;
+
 }
